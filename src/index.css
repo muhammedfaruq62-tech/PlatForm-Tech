@@ -1,0 +1,805 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #18243a;
+  background: #ffffff;
+}
+
+/* Navbar */
+header {
+  min-height: 72px;
+  padding: 16px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #1355c8;
+}
+
+.logo {
+  color: #1e2e4d;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Impact;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #536ce2;
+}
+
+header button {
+  padding: 11px 16px;
+  border: 0;
+  border-radius: 6px;
+  background: #536ce2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Hero */
+#home {
+  min-height: 520px;
+  padding: 70px 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 48px;
+  background: #041235;
+}
+
+.hero-content h1 {
+  margin: 18px 0;
+  font-size: clamp(42px, 6vw, 68px);
+  line-height: 1.05;
+  color: #fff;
+  font-size: bold;
+}
+
+.eyebrow {
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero-description {
+  max-width: 480px;
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 13px 18px;
+  border: 1px solid #536ce2;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hero-buttons a:first-child {
+  background: #536ce2;
+  color: white;
+}
+
+.hero-buttons a:hover {
+  opacity: 0.85;
+}
+
+.hero-image img {
+  display: block;
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+/* Trust bar */
+.trustbar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding: 28px 7%;
+  background: white;
+  border-bottom: 1px solid #000000;
+}
+
+.trustbar div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.trustbar strong {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.trustbar span {
+  color: #000000;
+  font-size: 18px;
+}
+
+/* Mobile layout */
+@media (max-width: 700px) {
+  header {
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px 5%;
+  }
+
+  nav {
+    order: 3;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  nav a {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  #home {
+    grid-template-columns: 1fr;
+    padding: 55px 7%;
+    gap: 20px;
+  }
+
+  .hero-image img {
+    height: 260px;
+  }
+
+  .trustbar {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 24px 7%;
+  }
+}
+
+/* Trust bar cards */
+.trustbar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  padding: 32px 7%;
+  background: #041235;
+}
+
+.trustbar div {
+  min-height: 105px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  background: white;
+  border: 1px solid #000;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(199, 203, 3, 0.06);
+}
+
+.trustbar strong {
+  font-size: 20px;
+}
+
+.trustbar span {
+  color: #7b8799;
+  font-size: 16px;
+}
+
+@media (max-width: 700px) {
+  .trustbar {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 24px 7%;
+  }
+
+  .trustbar div {
+    padding: 16px;
+  }
+}
+
+/* Categories section */
+.categories {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 7%;
+}
+
+.section-heading {
+  margin-bottom: 28px;
+}
+
+.section-heading .eyebrow {
+  margin-bottom: 10px;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: clamp(28px, 4vw, 40px);
+}
+
+/* Category cards */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+}
+
+.category-card {
+  grid-column: span 2;
+  height: 210px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #e8ebf0;
+  color: white;
+  text-decoration: none;
+}
+
+.category-card:nth-child(4),
+.category-card:nth-child(5) {
+  grid-column: span 3;
+}
+
+.category-card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover img {
+  transform: scale(1.05);
+}
+
+.category-overlay {
+  position: absolute;
+  inset: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(
+    to top,
+    rgba(12, 22, 39, 0.8),
+    rgba(12, 22, 39, 0.05)
+  );
+}
+
+.category-overlay h3 {
+  margin: 0 0 6px;
+  font-size: 20px;
+}
+
+.category-overlay span {
+  font-size: 13px;
+}
+
+/* Category cards on phones */
+@media (max-width: 700px) {
+  .categories {
+    padding: 50px 7%;
+  }
+
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .category-card,
+  .category-card:nth-child(4),
+  .category-card:nth-child(5) {
+    grid-column: span 1;
+    height: 160px;
+  }
+
+  .category-card:last-child {
+    grid-column: span 2;
+  }
+
+  .category-overlay {
+    padding: 14px;
+  }
+
+  .category-overlay h3 {
+    font-size: 16px;
+  }
+
+  .category-overlay span {
+    font-size: 11px;
+  }
+}
+
+/* Repair services section */
+.repair-services {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 48px;
+  align-items: center;
+  padding: 70px 10%;
+  background: #111d32;
+  color: white;
+}
+
+.repair-intro .eyebrow {
+  color: #aab6d0;
+}
+
+.repair-intro h2 {
+  margin: 16px 0;
+  font-size: clamp(34px, 5vw, 48px);
+  line-height: 1.1;
+}
+
+.repair-intro h2 span {
+  color: #96a5ff;
+}
+
+.repair-intro > p:not(.eyebrow) {
+  max-width: 360px;
+  color: #b7c0d0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.repair-intro > a {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 17px;
+  border-radius: 6px;
+  background: white;
+  color: #18243a;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.repair-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.repair-card {
+  min-height: 165px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.04);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.repair-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-3px);
+}
+
+.repair-number {
+  color: #96a5ff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.repair-card h3 {
+  margin: 16px 0 6px;
+  font-size: 17px;
+}
+
+.repair-card p {
+  margin: 0;
+  color: #b7c0d0;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.repair-link {
+  margin-top: auto;
+  padding-top: 14px;
+  color: #aab6ff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Repair section on phones */
+@media (max-width: 700px) {
+  .repair-services {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 55px 7%;
+  }
+
+  .repair-grid {
+    gap: 10px;
+  }
+
+  .repair-card {
+    min-height: 155px;
+    padding: 14px;
+  }
+
+  .repair-card h3 {
+    font-size: 15px;
+  }
+
+  .repair-card p {
+    font-size: 12px;
+  }
+}
+
+/* Featured products */
+.featured-products {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 7%;
+}
+
+.featured-products .section-heading {
+  margin-bottom: 28px;
+}
+
+.featured-products .section-heading h2 {
+  margin: 0;
+  font-size: clamp(28px, 4vw, 40px);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.product-card {
+  overflow: hidden;
+  padding-bottom: 16px;
+  border: 1px solid #466cae;
+  border-radius: 10px;
+  background: white;
+  
+}
+
+.product-card img {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  margin: 16px 14px 6px;
+  font-size: 16px;
+}
+
+.product-card p {
+  margin: 0 14px 12px;
+  color: #7b8799;
+  font-size: 13px;
+}
+
+.product-card strong {
+  margin: 0 14px;
+  color: #18243a;
+}
+
+/* Products on smaller screens */
+@media (max-width: 700px) {
+  .featured-products {
+    padding: 50px 7%;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .product-card img {
+    height: 145px;
+  }
+
+  .product-card h3 {
+    font-size: 14px;
+  }
+
+  .product-card p {
+    font-size: 11px;
+  }
+}
+
+/* Contact banner */
+.contact-banner {
+  max-width: 1064px;
+  margin: 0 auto 70px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-radius: 12px;
+  background: #eef1ff;
+}
+
+.contact-banner .eyebrow {
+  margin: 0 0 10px;
+}
+
+.contact-banner h2 {
+  margin: 0 0 10px;
+  font-size: clamp(24px, 4vw, 34px);
+}
+
+.contact-banner div > p:last-child {
+  margin: 0;
+  color: #68758a;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.contact-banner > a {
+  flex-shrink: 0;
+  padding: 13px 18px;
+  border-radius: 6px;
+  background: #536ce2;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-banner > a:hover {
+  background: #4058cc;
+}
+
+/* Contact banner on phones */
+@media (max-width: 700px) {
+  .contact-banner {
+    margin: 0 7% 50px;
+    padding: 22px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+/* Footer */
+.site-footer {
+  padding: 45px 7% 0;
+  background: #111d32;
+  color: white;
+}
+
+.footer-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 35px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.4fr;
+  gap: 40px;
+}
+
+.site-footer .logo {
+  color: #7209c8d6;
+  font-weight: bold;
+}
+
+.footer-brand p {
+  max-width: 250px;
+  color: #b7c0d0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.footer-column h3 {
+  margin: 0 0 4px;
+  font-size: 15px;
+}
+
+.footer-column a,
+.footer-column span {
+  color: #b7c0d0;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  min-height: 52px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  color: #aab4c5;
+  font-size: 27px;
+}
+
+/* Footer on phones */
+@media (max-width: 700px) {
+  .site-footer {
+    padding: 35px 7% 0;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+    gap: 28px 18px;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer-bottom {
+    padding: 44px 0;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+.whatsapp-button {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 12px 17px;
+  border-radius: 30px;
+  background: #25d366;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-button:hover {
+  background: #1ebe5d;
+}
+
+.whatsapp-icon {
+  width: 29px;
+  height: 32px;
+}
+
+@media (max-width: 700px) {
+  .whatsapp-button {
+    right: 16px;
+    bottom: 25px;
+    padding: 13px;
+  }
+
+  .whatsapp-button span {
+    display: none;
+  }
+}
+
+
+.repair-card {
+  overflow: hidden;
+}
+
+.repair-image {
+  width: 100%;
+  height: 130px;
+  display: block;
+  margin-bottom: 14px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.repair-card h3 {
+  margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+  .repair-image {
+    height: 110px;
+  }
+}
+
+@media (min-width: 701px) {
+  .repair-services {
+    align-items: start;
+  }
+
+  .repair-intro {
+    padding-top: 20px;
+  }
+}
+
+.book-repair-button {
+  padding: 11px 16px;
+  border-radius: 6px;
+  background: #536ce2;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.book-repair-button:hover {
+  background: #4058cc;
+}
+
+/* Reveal sections as they enter the screen */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px) scale(0.94);
+  transition:
+    opacity 700ms ease,
+    transform 700ms ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Optional zoom-out version */
+.reveal.reveal-zoom-out {
+  transform: translateY(0) scale(1.08);
+}
+
+.reveal.reveal-zoom-out.is-visible {
+  transform: translateY(0) scale(1);
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal.is-visible,
+  .reveal.reveal-zoom-out,
+  .reveal.reveal-zoom-out.is-visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
