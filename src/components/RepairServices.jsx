@@ -1,5 +1,5 @@
-import PhonerepairImage from "../assets/Phone repair1.jpeg";
-import LaptoprepairImage from "../assets/Laptop Repair 2.jpeg";
+import PhonerepairImage from "../assets/phone repair1.jpeg";
+import LaptoprepairImage from "../assets/laptop repair 2.jpeg";
 import PS5repairImage from "../assets/PS 5 repair.jpeg";
 import ControllerrepairImage from "../assets/controller repair.jpeg";
 import printerImage from "../assets/printer repair.jpeg";
