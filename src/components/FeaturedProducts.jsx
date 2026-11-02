@@ -8,8 +8,8 @@ import CctvImage from "../assets/cctv.jpeg";
 import DesktopImage from "../assets/Desktop.jpeg";
 import keyboardImage from "../assets/Keyboard.jpeg";
 import WatchImage from "../assets/Watch.jpeg";
-import ps5ControllerImage from "../assets/ps5 Controller.jpeg";
 import MouseImage from "../assets/Mouse.jpeg";
+
 const products = [
   {
     name: "Smartphone",
@@ -18,11 +18,11 @@ const products = [
     image: phoneImage,
   },
   {
-  name: "Laptop",
-  description: "HP laptop .  Window corei5",
-  price: "OMR 120.000",
-  image: laptopImage,
-},
+    name: "Laptop",
+    description: "HP laptop · Windows Core i5",
+    price: "OMR 120.000",
+    image: laptopImage,
+  },
   {
     name: "PS5 Gaming PC",
     description: "Wireless · PS5 Gaming PC",
@@ -31,65 +31,58 @@ const products = [
   },
   {
     name: "Headphones",
-    description: "Premium · P9, Headphone sound",
+    description: "Premium · P9 headphone sound",
     price: "OMR 10.500",
-    image:  HeadphoneImage ,
+    image: HeadphoneImage,
   },
-
   {
-    name: "Phonestand",
-    description: "Moblie · Table, phone stand",
+    name: "Phone Stand",
+    description: "Mobile · Table phone stand",
     price: "OMR 2.000",
-    image: PhonestandImage ,
+    image: PhonestandImage,
   },
-
   {
-    name: "Ipad",
-    description: "Apple ipad · 7th, Generation",
+    name: "iPad",
+    description: "Apple iPad · 7th generation",
     price: "OMR 55.000",
-    image: IpadImage ,
+    image: IpadImage,
   },
-
   {
     name: "CCTV",
-    description: "Security · Camera, 2k",
+    description: "Security camera · 2K",
     price: "OMR 25.000",
-    image: CctvImage ,
+    image: CctvImage,
   },
-
   {
     name: "Desktop",
-    description: "Dell Desktop · 24inch, Corei5",
+    description: "Dell desktop · 24-inch, Core i5",
     price: "OMR 95.500",
-    image: DesktopImage ,
+    image: DesktopImage,
   },
-
   {
     name: "Keyboard",
-    description: "Wireless · Black, Keyboard",
+    description: "Wireless · Black keyboard",
     price: "OMR 7.000",
-    image: keyboardImage ,
+    image: keyboardImage,
   },
-
   {
     name: "Watch",
-    description: "Smart Watch · with, 1.52inch",
+    description: "Smart watch · 1.52-inch display",
     price: "OMR 12.000",
-    image: WatchImage ,
+    image: WatchImage,
   },
-
   {
     name: "PS5 Controller",
-    description: "PS5· Gaming, Controller",
+    description: "PS5 gaming controller",
     price: "OMR 10.500",
-    image: ps5ControllerImage ,
+    image:
+      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=900&q=80",
   },
-
   {
     name: "Mouse",
-    description: "Wireless · Black, Mouse",
+    description: "Wireless · Black mouse",
     price: "OMR 3.000",
-    image: MouseImage ,
+    image: MouseImage,
   },
 ];
 
