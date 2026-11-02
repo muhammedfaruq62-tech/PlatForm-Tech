@@ -1,4 +1,3 @@
-import heroImage from "../assets/hero 1.png";
 function Hero() {
   return (
     <section id="home">
@@ -24,7 +23,8 @@ function Hero() {
 
       <div className="hero-image">
         <img
-          src={heroImage} alt="Technology products"
+          src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+          alt="People working together with laptops and technology"
         />
       </div>
     </section>
