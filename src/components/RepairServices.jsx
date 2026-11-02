@@ -1,9 +1,9 @@
-import PhonerepairImage from "../assets/Phone-repair1.jpeg";
-import LaptoprepairImage from "../assets/Laptop-repair2.jpeg";
-import PS5repairImage from "../assets/PS5 repair.jpeg";
-import ControllerrepairImage from "../assets/controller repair.jpeg";
+import PhonerepairImage from "../assets/phone repair 1.jpeg";
+import LaptoprepairImage from "../assets/Laptop Repair 2.jpeg";
+import PS5repairImage from "../assets/PS 5 repair.jpeg";
+import ControllerrepairImage from "../assets/ps5 controller.jpeg";
 import printerImage from "../assets/printer repair.jpeg";
-import AppleWatchImage from "../assets/Apple watch.jpeg";
+import AppleWatchImage from "../assets/Watch.jpeg";
 
 const shopWhatsApp = "96877381538";
 
