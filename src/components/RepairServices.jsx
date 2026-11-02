@@ -1,9 +1,3 @@
-import PhonerepairImage from "../assets/phone repair 1.jpeg";
-import LaptoprepairImage from "../assets/Laptop Repair 2.jpeg";
-import PS5repairImage from "../assets/PS 5 repair.jpeg";
-import ControllerrepairImage from "../assets/ps5 controller.jpeg";
-import printerImage from "../assets/printer repair.jpeg";
-import AppleWatchImage from "../assets/Watch.jpeg";
 
 const shopWhatsApp = "96877381538";
 
@@ -11,45 +5,50 @@ const services = [
   {
     title: "Phone Repairs",
     description: "Screen, battery, and charging-port repairs.",
-    image: PhonerepairImage ,
+    image:
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=80",
     message:
       "Hi, I need help repairing my phone. Could you tell me how to arrange a repair?\n\nمرحباً، أحتاج إلى إصلاح هاتفي. هل يمكنكم إخباري بكيفية ترتيب عملية الإصلاح؟",
   },
   {
     title: "Laptop Repairs",
     description: "Diagnostics, upgrades, and troubleshooting.",
-    image: LaptoprepairImage ,
+    image:
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=80",
     message:
       "Hi, I need help repairing my laptop. Could you tell me how to arrange a repair?\n\nمرحباً، أحتاج إلى إصلاح جهاز الكمبيوتر المحمول. هل يمكنكم إخباري بكيفية ترتيب عملية الإصلاح؟",
   },
   {
     title: "PS5 Repairs",
     description: "Console troubleshooting and repair.",
-    image: PS5repairImage ,
+    image:
+      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=900&q=80",
     message:
       "Hi, I need help repairing my PS5. Could you tell me how to arrange a repair?\n\nمرحباً، أحتاج إلى إصلاح جهاز PS5. هل يمكنكم إخباري بكيفية ترتيب عملية الإصلاح؟",
   },
   {
     title: "Controller Repairs",
     description: "Help with controller buttons, sticks, and connections.",
-    image: ControllerrepairImage ,
+    image:
+      "https://images.unsplash.com/photo-1592840496694-26d035b52b48?auto=format&fit=crop&w=900&q=80",
     message:
       "Hi, I need help repairing my gaming controller. Could you tell me how to arrange a repair?\n\nمرحباً، أحتاج إلى إصلاح وحدة التحكم بالألعاب. هل يمكنكم إخباري بكيفية ترتيب عملية الإصلاح؟",
   },
   {
     title: "Printer Repairs",
     description: "Printer troubleshooting and maintenance.",
-    image: printerImage ,
+    image:
+      "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&w=900&q=80",
     message:
       "Hi, I need help repairing my printer. Could you tell me how to arrange a repair?\n\nمرحباً، أحتاج إلى إصلاح الطابعة. هل يمكنكم إخباري بكيفية ترتيب عملية الإصلاح؟",
   },
-
-   {
+  {
     title: "Watch Repairs",
-    description: "Printer troubleshooting and maintenance.",
-    image: AppleWatchImage ,
+    description: "Help with smartwatch screens, batteries, and setup.",
+    image:
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
     message:
-      "Hi, I need help repairing my printer. Could you tell me how to arrange a repair?\n\nمرحباً، أحتاج إلى إصلاح الطابعة. هل يمكنكم إخباري بكيفية ترتيب عملية الإصلاح؟",
+      "Hi, I need help repairing my watch. Could you tell me how to arrange a repair?\n\nمرحباً، أحتاج إلى إصلاح ساعتي. هل يمكنكم إخباري بكيفية ترتيب عملية الإصلاح؟",
   },
 ];
 
