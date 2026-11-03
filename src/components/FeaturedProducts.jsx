@@ -11,7 +11,7 @@ const products = [
     description: "HP laptop · Windows Core i5",
     price: "OMR 120.000",
     image:
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1602080858428-57174f9431cf?q=80&w=1251&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
   },
   {
     name: "PS5 Gaming PC",
@@ -32,28 +32,28 @@ const products = [
     description: "Mobile · Table phone stand",
     price: "OMR 2.000",
     image:
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=80",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReGD-N0bmuysnA2Qai92PHj2bvZgZhQDWyLU0XO8P8iobeSZnOCorCTxY&s=10",
   },
   {
     name: "iPad",
     description: "Apple iPad · 7th generation",
     price: "OMR 55.000",
     image:
-      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=900&q=80",
+      "https://www.trustedreviews.com/wp-content/uploads/sites/7/2019/12/IMG_0128.jpeg",
   },
   {
     name: "CCTV",
     description: "Security camera · 2K",
     price: "OMR 25.000",
     image:
-      "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1481597262637-0545b18186ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
   },
   {
     name: "Desktop",
     description: "Dell desktop · 24-inch, Core i5",
     price: "OMR 95.500",
     image:
-      "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=900&q=80",
+      "https://itechezy.com/wp-content/uploads/2024/11/Refurbished-dell-Computer-set-Intel-3800-vostro-i3-4th-Gen-SFF-2.png",
   },
   {
     name: "Keyboard",
@@ -74,7 +74,7 @@ const products = [
     description: "PS5 gaming controller",
     price: "OMR 10.500",
     image:
-      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=900&q=80",
+      "https://battlebeavercustoms.com/cdn/shop/files/ps5-smartpad-fps-3441809.jpg?v=1785804376&width=1214",
   },
   {
     name: "Mouse",

@@ -5,7 +5,7 @@ const services = [
     title: "Phone Repairs",
     description: "Screen, battery, and charging-port repairs.",
     image:
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1639776739505-1e55563c9938?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     message:
       "Hi, I need help repairing my phone. Could you tell me how to arrange a repair?\n\nمرحباً، أحتاج إلى إصلاح هاتفي. هل يمكنكم إخباري بكيفية ترتيب عملية الإصلاح؟",
   },
@@ -13,7 +13,7 @@ const services = [
     title: "Laptop Repairs",
     description: "Diagnostics, upgrades, and troubleshooting.",
     image:
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=80",
+      "https://media.istockphoto.com/id/2198022863/photo/top-view-of-computer-master-repairing-laptop-motherboard-with-screwdriver-surrounded-by.jpg?s=2048x2048&w=is&k=20&c=6yy_CKq72EHJU5ZZeOVcDq3REY-GaFOT2dNotSGHNhM=",
     message:
       "Hi, I need help repairing my laptop. Could you tell me how to arrange a repair?\n\nمرحباً، أحتاج إلى إصلاح جهاز الكمبيوتر المحمول. هل يمكنكم إخباري بكيفية ترتيب عملية الإصلاح؟",
   },
@@ -21,7 +21,7 @@ const services = [
     title: "PS5 Repairs",
     description: "Console troubleshooting and repair.",
     image:
-      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1721333089620-2f1f3a647dc8?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     message:
       "Hi, I need help repairing my PS5. Could you tell me how to arrange a repair?\n\nمرحباً، أحتاج إلى إصلاح جهاز PS5. هل يمكنكم إخباري بكيفية ترتيب عملية الإصلاح؟",
   },
@@ -29,7 +29,7 @@ const services = [
     title: "Controller Repairs",
     description: "Help with controller buttons, sticks, and connections.",
     image:
-      "https://images.unsplash.com/photo-1592840496694-26d035b52b48?auto=format&fit=crop&w=900&q=80",
+      "https://media.istockphoto.com/id/1182989101/photo/broken-gamepad-joystick-on-white-backrgound.jpg?s=1024x1024&w=is&k=20&c=AGI_5niGOwmb9adwGDFrvxqCEBCSCzllBykZl_g-F5Q=",
     message:
       "Hi, I need help repairing my gaming controller. Could you tell me how to arrange a repair?\n\nمرحباً، أحتاج إلى إصلاح وحدة التحكم بالألعاب. هل يمكنكم إخباري بكيفية ترتيب عملية الإصلاح؟",
   },
@@ -45,7 +45,7 @@ const services = [
     title: "Watch Repairs",
     description: "Help with smartwatch screens, batteries, and setup.",
     image:
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1719744755528-797de46cbbff?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     message:
       "Hi, I need help repairing my watch. Could you tell me how to arrange a repair?\n\nمرحباً، أحتاج إلى إصلاح ساعتي. هل يمكنكم إخباري بكيفية ترتيب عملية الإصلاح؟",
   },
