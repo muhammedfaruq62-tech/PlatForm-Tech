@@ -2,22 +2,37 @@ function Hero() {
   return (
     <section id="home">
       <div className="hero-content">
-        <p className="eyebrow">Your local tech people</p>
+        <p className="eyebrow">PLATFORM TECHNOLOGY · SEEB, OMAN</p>
 
         <h1>
-          Your tech.
+          Reliable technology.
           <br />
-          Taken care of.
+          Support you can trust.
         </h1>
 
         <p className="hero-description">
-          Shop the latest devices and accessories, or let our friendly experts
-          help repair the tech you already own.
+          Shop mobile phones, laptops, gaming devices, printers, and accessories.
+          Need a repair? Our team is here to help keep your devices working.
         </p>
 
+        <div className="hero-arabic" lang="ar-OM" dir="rtl">
+          <h2>تقنية موثوقة، وخدمة تعتمدون عليها</h2>
+          <p>
+            تسوّقوا الهواتف المحمولة واللابتوبات وأجهزة الألعاب والطابعات
+            والإكسسوارات. وإذا احتاج جهازكم إلى صيانة، فريقنا جاهز لمساعدتكم.
+          </p>
+        </div>
+
         <div className="hero-buttons">
-          <a href="#shop">Explore the shop</a>
-          <a href="#repairs">Book a repair</a>
+          <a href="#shop">
+            Shop products
+            <span lang="ar-OM" dir="rtl">تسوّقوا المنتجات</span>
+          </a>
+
+          <a href="#repairs">
+            Book a repair
+            <span lang="ar-OM" dir="rtl">احجزوا صيانة</span>
+          </a>
         </div>
       </div>
 

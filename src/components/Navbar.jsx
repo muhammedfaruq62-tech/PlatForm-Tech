@@ -1,10 +1,9 @@
 function Navbar() {
   return (
     <header>
-      <a href="/" className="logo">
-        PlatForm-Technology
-      </a>
-
+      <a href="#home" className="logo">
+  PlatForm Technology
+       </a>
       <nav>
         <a href="#home">Home</a>
         <a href="#shop">Shop</a>
